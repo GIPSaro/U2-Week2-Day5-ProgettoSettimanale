@@ -69,3 +69,39 @@ section img:hover {
   transform: scale(1.15);
   z-index: 1;
 }
+footer {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+footer .social {
+  color: #a0a0a0;
+}
+
+footer .row a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #a0a0a0;
+}
+
+footer a:hover,
+footer i:hover {
+  color: #fdfdfd;
+}
+
+footer p:last-child {
+  font-size: 10px;
+  color: #a0a0a0;
+}
+.general-btn {
+  background-color: #14141421;
+  color: #c9c9c9;
+  border: 2px solid #585c60;
+  padding: 0.3rem 0.5rem;
+  font-size: 10px;
+}
+
+.general-btn:hover {
+  background-color: #1b1b1b;
+  color: #aaaaaa;
+}
